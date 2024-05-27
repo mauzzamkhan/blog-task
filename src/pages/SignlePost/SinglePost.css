@@ -1,0 +1,40 @@
+.singlePostWraper {
+    /* background-color: aqua; */
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    /* flex-wrap: wrap; */
+    display: flex;
+    /* flex-direction: column; */
+    gap: 24px;
+    /* justify-content: space-between; */
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.singlePost {}
+
+.sidebar {
+    width: 35%;
+
+}
+
+.postFeatured {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 16px;
+    /* border-radius: 12px; */
+}
+
+.Title {
+    font-size: 32px;
+    line-height: 38px;
+    color: #3066c7;
+    font-weight: 500;
+    margin: 8px 0px 24px 0px;
+}
+
+.mt-2 {
+    margin-bottom: 8px;
+}
